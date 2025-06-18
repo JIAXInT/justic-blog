@@ -1,0 +1,28 @@
+# 技能点配置
+# 每个技能点包含以下属性：
+# - name: 技能名称
+# - value: 技能值（0-100）
+# - color: 技能条颜色（可选）
+# - icon: 技能图标（可选）
+
+skills:
+  - name: 前端开发
+    value: 85
+    color: "#425AEF"
+    icon: anzhiyu-icon-code
+  - name: 后端开发
+    value: 75
+    color: "#FF7242"
+    icon: anzhiyu-icon-server
+  - name: 数据库
+    value: 70
+    color: "#49B1F5"
+    icon: anzhiyu-icon-database
+  - name: 设计
+    value: 65
+    color: "#FFCC00"
+    icon: anzhiyu-icon-palette
+  - name: 写作
+    value: 80
+    color: "#1ABC9C"
+    icon: anzhiyu-icon-pen
