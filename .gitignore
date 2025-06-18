@@ -1,0 +1,189 @@
+# Hexo 博客项目 .gitignore 文件
+
+# Hexo 生成的文件
+.deploy/
+.deploy_git/
+
+# 依赖包
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 覆盖率目录
+lib-cov
+coverage/
+*.lcov
+
+# nyc 测试覆盖率
+.nyc_output
+
+# Grunt 中间存储
+.grunt
+
+# Bower 依赖目录
+bower_components
+
+# node-waf 配置
+.lock-wscript
+
+# 编译二进制文件
+build/Release
+
+# 依赖目录
+jspm_packages/
+
+# TypeScript 缓存
+*.tsbuildinfo
+
+# 可选的 npm 缓存目录
+.npm
+
+# 可选的 eslint 缓存
+.eslintcache
+
+# 微包
+.pnp
+.pnp.js
+
+# 测试覆盖率
+coverage/
+*.lcov
+
+# 生产构建文件
+dist/
+build/
+
+# 本地环境文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志文件
+logs
+*.log
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 目录用于 instrumented libs 生成的覆盖率
+lib-cov
+
+# 覆盖率目录
+coverage
+*.lcov
+
+# Grunt 中间存储
+.grunt
+
+# Bower 依赖目录
+bower_components
+
+# node-waf 配置
+.lock-wscript
+
+# 编译二进制文件
+build/Release
+
+# 依赖目录
+jspm_packages/
+
+# TypeScript 缓存
+*.tsbuildinfo
+
+# 可选的 npm 缓存目录
+.npm
+
+# 可选的 eslint 缓存
+.eslintcache
+
+# 微包
+.pnp
+.pnp.js
+
+# 测试覆盖率
+coverage/
+*.lcov
+
+# 生产构建文件
+dist/
+build/
+
+# 本地环境文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志文件
+logs
+*.log
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.temp
+
+# 备份文件
+*.bak
+*.backup
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 缓存文件
+.cache/
+.temp/
+
+# Hexo 特定文件
+db.json
+*.log
+
+# 主题相关（如果不想提交主题）
+# themes/*/
+
+# 插件相关（如果不想提交插件）
+# node_modules/hexo-*
+
+# 部署相关
+.deploy/
+.deploy_git/
+
+# 其他
+*.orig
+*.rej 
